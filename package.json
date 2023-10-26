@@ -1,0 +1,29 @@
+{
+  "name": "typescript-auth-token-generator",
+  "version": "1.0.0",
+  "description": "Node | Express | TypeScript | API/REST Microservice that generates access tokens and API keys according to parameters specified by client applications",
+  "type": "module",
+  "main": "apps.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/app.ts",
+    "test": "jest --verbose"
+  },
+  "keywords": [
+    "Node",
+    "Express",
+    "TypeScript",
+    "Authorization",
+    "Token",
+    "APIKey"
+  ],
+  "author": "Ricardo Rodriguez",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/express": "^4.17.20",
+    "@types/node": "^20.8.7",
+    "express": "^4.18.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}

@@ -1,0 +1,1 @@
+console.log('Hello there, project has been setup')
